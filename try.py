@@ -15,5 +15,5 @@ def animate(i):
     line.set_data(x, y)
     return line,
 anim = animation.FuncAnimation(fig, animate, init_func=init,
-                                 frames=200, interval=20, blit=True)    
+                                 frames=200, interval=1, blit=True)    
 plt.show()
